@@ -1,0 +1,124 @@
+name: Ecosystem Project application
+description: Apply to be a member of the PyTorch Ecosystem landscape
+title: "[Ecosystem]<Project Name>"
+labels: [New]
+body:
+- type: markdown
+  attributes:
+    value: |
+     Thanks for filling out a PyTorch Ecosystem Project application. The PyTorch ecosystem consists of projects, tools, and libraries from a broad set of researchers in academia and industry, application developers, and ML engineers. The goal of the ecosystem is to support, accelerate, and aid user development with PyTorch. Below are a few questions to think about if you'd like to have your project included as part of the ecosystem:
+1. Can your project be used with or within PyTorch to help augment the user experience, enable new capabilities or speed up training/inference? Examples could include visualization tools, a kernel library or a framework that sits on top to enable research in a particular area such as NLP.
+2.  Is the project ready for broad developer usage?  For example, is the project stable, will it be maintained, and is there adequate supporting infrastructure, documentation, and technical support to allow a developer to successfully use it?
+
+In addition, please read the guidelines and understand the [expectations](https://docs.google.com/document/d/1fnom8Wz6gFKfhOTsNvNsj1qHxL0LwOdN/edit#heading=h.vh726n94ahnd) for Ecoystem projects.
+- type: textarea
+  attributes:
+    label: Contact emails
+    description: Provide the email address(es) of individuals who should be contacted regarding this application. If more than one email is provided, please comma separate them.
+    placeholder: Comma-separate multiple emails here
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Project summary
+    description: Provide a very brief, single line summary of the project.
+    placeholder: One-line summary of the project
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Project description
+    description: Provide a brief, 100-300 word description of the project that explains what it does and why it's needed.
+    placeholder: Describe what the project does, why it's needed, and what gap it fills in the PyTorch ecosystem.  
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Are there any other projects in the PyTorch Ecosystem similar to yours?  If, yes, what are they?  
+    description: Provide a brief, 100-300 word description of similar projects, if any.
+    placeholder: Describe any similar projects already in the ecosystem.  If none, note as not applicable.   
+  validations:
+    required: true 
+- type: input
+  attributes:
+    label: Project repo URL 
+    description: Provide the URL of the primary source code for the project. If there is no single repo but all repos under the org are in scope of the application, provide the URL of the top level repository. 
+    placeholder: Add code repo URL here
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional repos in scope of the application
+    description: Provide the URLs of any additional repos for this project's application if appropriate.
+    placeholder: Add additional repo URLs here
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: Project license
+    description: Provide the license that the project operates under.  Note that this should be a valid open source license.   
+    placeholder: Add license name here
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: GitHub handles of the project maintainer(s)
+    description: Provide the GitHub handle(s) of the individuals who are the primary maintainers of this project.  If more than one GitHub handle is provided, please comma separate them.
+    placeholder: Comma-separate multiple GitHub handles here
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Is there a corporate or academic entity backing this project?  If so, please provide the name and URL of the entity.  
+    description: Please provide the name and URL of the entity backing this project, if any.
+    placeholder: Add backing entity name and URL here, if any.
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: Website URL
+    description: Provide the URL of the project's website. If the project has no website, please provide the primary repo URL again.
+    placeholder: Add website URL here
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Location for documentation
+    description: Provide the URL of the project's documentation 
+    placeholder: Add documentation URL here
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How do you build and test the project today (continuous integration)?  Please describe.
+    description: Provide a description of how you build and test the project today. 
+    placeholder: Add build and test information here
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Version of PyTorch
+    description: What version of PyTorch are you building and testing with?  Please describe.
+    placeholder: LList the versions of PyTorch that you have built and tested with.  
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Components of PyTorch
+    description: What components of PyTorch does your project leverage?  Please describe.  
+    placeholder: List the components of PyTorch that your project uses.  Put NA if none.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: How long do you expect to maintain the project?
+    description: How long do you expect to maintain the project?  Please describe.  
+    placeholder: Describe how long you expect to maintain the project.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional information
+    description: Any additional information you would like the PyTorch TAC to consider when evaluating this project?
+  validations:
+    required: false
