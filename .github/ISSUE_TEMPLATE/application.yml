@@ -14,11 +14,11 @@ body:
 - type: markdown
   attributes:
     value: |
-          1. Can your project be used with or within PyTorch to help augment the user experience, enable new capabilities, or speed up training/inference? Examples could include visualization tools, a kernel library or a framework that sits on top to enable research in a particular area such as NLP. 
+          Can your project be used with or within PyTorch to help augment the user experience, enable new capabilities, or speed up training/inference? Examples could include visualization tools, a kernel library or a framework that sits on top to enable research in a particular area such as NLP. 
 - type: markdown
   attributes:
     value: |
-          2. Is the project ready for broad developer usage?  For example, is the project stable, will it be maintained, and is there adequate supporting infrastructure, documentation, and technical support to allow a developer to successfully use it? 
+          Is the project ready for broad developer usage?  For example, is the project stable, will it be maintained, and is there adequate supporting infrastructure, documentation, and technical support to allow a developer to successfully use it? 
 - type: markdown
   attributes:
     value: |     
