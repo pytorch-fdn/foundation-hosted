@@ -103,7 +103,7 @@ body:
   attributes:
     label: Version of PyTorch
     description: What version of PyTorch are you building and testing with?  Please describe.
-    placeholder: LList the versions of PyTorch that you have built and tested with.  
+    placeholder: List the versions of PyTorch that you have built and tested with.  
   validations:
     required: true
 - type: textarea
@@ -113,10 +113,10 @@ body:
     placeholder: List the components of PyTorch that your project uses.  Put NA if none.
   validations:
     required: true
-- type: input
+- type: textarea
   attributes:
     label: How long do you expect to maintain the project?
-    description: How long do you expect to maintain the project?  Please describe.  
+    description: State how long you expect to maintain the project.  
     placeholder: Describe how long you expect to maintain the project.
   validations:
     required: true
