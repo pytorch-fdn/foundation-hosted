@@ -6,11 +6,7 @@ body:
 - type: markdown
   attributes:
     value: |
-     Thanks for filling out a PyTorch Ecosystem Project application. The PyTorch ecosystem consists of projects, tools, and libraries from a broad set of researchers in academia and industry, application developers, and ML engineers. The goal of the ecosystem is to support, accelerate, and aid user development with PyTorch. 
-- type: markdown
-  attributes:
-    value: |
-     Here are a few questions to think about if you'd like to have your project included as part of the ecosystem. 
+     Thanks for filling out a PyTorch Ecosystem Project application. The PyTorch ecosystem consists of projects, tools, and libraries from a broad set of researchers in academia and industry, application developers, and ML engineers. The goal of the ecosystem is to support, accelerate, and aid user development with PyTorch. Below are a few questions to think about if you'd like to have your project included as part of the ecosystem. 
 - type: markdown
   attributes:
     value: |
