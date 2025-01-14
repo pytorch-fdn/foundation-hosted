@@ -4,13 +4,13 @@
 
 This repository is designed to allow projects seeking to join the PyTorch Foundation Ecosystem as a project to submit their applications. It is still a work in progress and we welcome PRs on this repo to automate assignments, improve the process, etc.  If you have any questions, please reach out in the [TOC Slack Channel](https://cloud-native.slack.com/archives/C0MP69YF4) or file an [issue](https://github.com/cncf/sandbox/issues/new?assignees=&labels=New&projects=&template=application.yml&title=%5BSandbox%5D+%3CProject+Name%3E) on the repo.
 
-For information on the sandbox process please check out the [details on our sandbox application process below](#how-applications-are-reviewed).
+For information on the  process please check out the [details on our sandbox application process below](#how-applications-are-reviewed).
 
 ## How to apply
 
 Applying is as easy as 1-2-3!
 
-1. Open a new [Sandbox Application](https://github.com/cncf/sandbox/issues/new?assignees=&labels=New&projects=&template=application.yml&title=%5BSandbox%5D+%3CProject+Name%3E?assignees=&labels=New&projects=&template=application.yml&title=%5BSandbox%5D+%3CProject+Name%3E) using the linked issue form.
+1. Open a new [Ecosystem Application](https://github.com/pytorch/ecosystem/issues/new?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E) using the linked issue form.
 1. Complete all sections of the form.
 1. Submit the issue.
 
