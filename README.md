@@ -16,31 +16,29 @@ Applying is as easy as 1-2-3!
 
 ## What's next?
 
-Your project's application is placed in the backlog for triaging. You can view the status of your application and others at anytime by checking out our [Project Board](https://github.com/orgs/cncf/projects/14).
+Your project's application is placed in the backlog for triaging. You can view the status of your application and others at anytime by checking out our [Project Board](https://github.com/orgs/pytorch/projects/85).
 
-As we approach Sandbox application review meetings, CNCF staff will move applications to the "upcoming" column on the Project Board (number dependent on how many can be reviewed in a given meeting). At this point, each application's associated Technical Advisory Group (TAG) and the TOC will ask questions, seek to learn more, and provide a recommendation to the TOC for project inclusion. Projects which applied may also field questions from interested community members beyond any TAG and TOC questions.
+As we approach Sandbox application review meetings, PyTorch staff will move applications to the "in-progress" column on the Project Board (number dependent on how many can be reviewed in a given meeting). At this point, Technical Advisory Committee will ask questions, seek to learn more, and make a decision on the project.  
 
 ### Community Comments on Applications
 
-The TOC welcomes and appreciates community members support and exploration in surfacing items for technical consideration as part of sandbox applications, it allows the TOC to have a more comprehensive perspective on each projects' potential and supports our TAGs in understanding more about these projects. 
+The TAC welcomes and appreciates community members support and exploration in surfacing items for technical consideration as part of application process because it allows the TAC to have a more comprehensive perspective on each projects' potential and supports our understanding more about these projects. 
 
-In keeping with the [Technical Leadership Principles](https://github.com/cncf/toc/blob/main/PRINCIPLES.md#technical-leadership-principles), community members providing comments and questions should [be welcoming and curious in their comments](https://github.com/cncf/toc/blob/main/PRINCIPLES.md#be-welcoming), [provide feedback with courtesy](https://github.com/cncf/toc/blob/main/PRINCIPLES.md#provide-feedback-and-appreciation-appropriately), and [foster respectful resolution](https://github.com/cncf/toc/blob/main/PRINCIPLES.md#foster-respectful-resolution).  Embodying the technical leadership principles as you comment on these applications directly contributes to sustaining the open, community-oriented nature of CNCF.
-
-### The TOC's sandbox review meeting
+### The TAC's review meeting
 
 When the TOC meets to review applications, more details on [frequency here](#frequency), your application will be pulled up and discussed. Your application may receive one of several statuses:
 
 * `New` - It is a brand new application and is in the backlog for an upcoming review.
-* `Approved` - The application has been reviewed and been approved by the TOC. The issue will be closed.
-* `Declined` - The application has been reviewed and been declined by the TOC. The comments on the issue will reflect the TOC decision and the issue will be closed.
-* `Need-Info` - The application has been reviewed and requires more information in order for the TOC to further discuss the application.  For instructions on what to do, please jump down to [Need-Info](#need-info).
-* `TAG-Assigned` - The application has been reviewed and the TOC would like a TAG to review or consult with the project prior to further discussions.  For instructions on what to do, please jump down to [TAG-Assigned](#tag-assigned).
+* `Approved` - The application has been reviewed and been approved by the TAC. The issue will be closed.
+* `Declined` - The application has been reviewed and been declined by the TOC. The comments on the issue will reflect the TAC decision and the issue will be closed.
+* `Need-Info` - The application has been reviewed and requires more information in order for the TAC to further discuss the application.  For instructions on what to do, please jump down to [Need-Info](#need-info).
+* `TAG-Assigned` - The application has been reviewed and the TAC would like a TAG to review or consult with the project prior to further discussions.  For instructions on what to do, please jump down to [TAG-Assigned](#tag-assigned).
 * `Postponed` - The application has been reviewed and the TOC has determined the project (as it exists at time of review) is not ready for inclusion within the CNCF. For instructions on what to do, please jump down to [Postponed](#postponed)
 * `Returning` - The application has been reviewed previously, was affixed a `Need-Info` or `TAG-Assigned` label, and that work has been completed and is ready for re-review.  For instructions on what to do, please jump down to [Returning](#returning).
 
 ### Label statuses defined
 
-Removing, updating, and adding labels as well as updating the project board are the responsibility of the TOC and CNCF staff.
+Removing, updating, and adding labels as well as updating the project board are the responsibility of the TAC and PyTorch staff.  Please refrain from adding additional labels.
 
 #### New
 
@@ -56,7 +54,7 @@ The application has been declined.
 
 #### Need Info
 
-If your project is assigned a `Need-Info` label, the TOC will comment on the issue with the specific additional information needed.  It will then be placed in the `Waiting` status of the [Project Board](https://github.com/orgs/cncf/projects/14).
+If your project is assigned a `Need-Info` label, the TAC will comment on the issue with the specific additional information needed.  It will then be placed in the `Waiting` status of the [Project Board](https://github.com/orgs/cncf/projects/14).
 
 Please provide the additional information requested as a comment on the issue with links as appropriate. Once you have done this, please add the below text to your comment so the TOC and staff know to update the issue:
 `Completed info, project is Returning`
@@ -133,4 +131,4 @@ The TOC reviews and discusses Isobars. The TOC determines that Isobars is a *ver
 
 ## Acceptance
 
-Once projects are accepted into the Sandbox, CNCF staff will open a project onboarding issue for the project based on [project onboarding template](https://github.com/cncf/sandbox/blob/main/.github/ISSUE_TEMPLATE/project-onboarding.md) - this may take a few days to get created. If you would like to start looking at the items on that list now, then you will be ready when for when the issue is opened. This is a test
+Once projects are accepted into the community will follow the process...
