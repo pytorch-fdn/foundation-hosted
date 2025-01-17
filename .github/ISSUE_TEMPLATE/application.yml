@@ -89,11 +89,11 @@ body:
     placeholder: Add website URL here
   validations:
     required: true
-- type: input
+- type: textarea
   attributes:
-    label: Location for documentation
-    description: Provide the URL of the project's documentation 
-    placeholder: Add documentation URL here
+    label: Documentation
+    description: Do you have a set of getting started tutorials and complete documentation?
+    placeholder: Add documentation information and URL here
   validations:
     required: true
 - type: textarea
