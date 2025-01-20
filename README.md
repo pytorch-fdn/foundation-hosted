@@ -32,7 +32,7 @@ When the TAC meets to review applications, your application will be pulled up an
 * `Declined` - The application has been reviewed and been declined by the TAC. The comments on the issue will reflect the TAC decision and the issue will be closed.
 * `Need-Info` - The application has been reviewed and requires more information in order for the TAC to further discuss the application.  For instructions on what to do, please jump down to [Need-Info](#need-info).
 * `TAG-Assigned` - The application has been reviewed and the TAC would like a TAG to review or consult with the project prior to further discussions.  For instructions on what to do, please jump down to [TAG-Assigned](#tag-assigned).
-* `Postponed` - The application has been reviewed and the TAC has determined the project (as it exists at time of review) is not ready for inclusion within the CNCF. For instructions on what to do, please jump down to [Postponed](#postponed)
+* `Postponed` - The application has been reviewed and the TAC has determined the project (as it exists at time of review) is not ready for inclusion within the PyTorch. For instructions on what to do, please jump down to [Postponed](#postponed)
 * `Returning` - The application has been reviewed previously, was affixed a `Need-Info` or `TAG-Assigned` label, and that work has been completed and is ready for re-review.  For instructions on what to do, please jump down to [Returning](#returning).
 
 ### Label statuses defined
@@ -80,7 +80,7 @@ This lets the TAC know the project is ready to be reviewed again. A TAC member o
 
 #### Postponed
 
- If the issue has been affixed with the `Postponed` label it will be closed as the TAC has determined the project at the time of discussion is not ready for inclusion into the CNCF. There will be a comment on the issue that annotates the expectations in order for the project to be re-reviewed by the TAC. Depending on the status and details, there are a few options to be re-reviewed. For information on review ordering for postponed projects, plese refer to the [Review Order section](#review-order).
+ If the issue has been affixed with the `Postponed` label it will be closed as the TAC has determined the project at the time of discussion is not ready for inclusion into the PyTorch. There will be a comment on the issue that annotates the expectations in order for the project to be re-reviewed by the TAC. Depending on the status and details, there are a few options to be re-reviewed. For information on review ordering for postponed projects, plese refer to the [Review Order section](#review-order).
 
 ##### Returning for review after being postponed
 
@@ -114,7 +114,7 @@ Applications are moved from `New` to `Upcoming` approximately two weeks prior to
 
 ### Discussions and decision
 
-During the course of the session, the TAC will actively discuss the project based on the information provided in the issue as well as other observations the TAC has about the project. Those observations vary greatly and may be subject to each TAC member's area of domain expertise, personal experience, community feedback, or other factors. During the course of active discussion, the TAC may identify areas the project needs to work on, complete, or allow to happen that could inhibit its acceptance into the CNCF. These areas will be captured succinctly and affixed the corresponding label ([see Label statuses defined](#label-statuses-defined) for more information). The issue will also receive a comment that details the additional areas that correspond with the label. The TAC comment may be formatted as a checklist or may be presented as text.
+During the course of the session, the TAC will actively discuss the project based on the information provided in the issue as well as other observations the TAC has about the project. Those observations vary greatly and may be subject to each TAC member's area of domain expertise, personal experience, community feedback, or other factors. During the course of active discussion, the TAC may identify areas the project needs to work on, complete, or allow to happen that could inhibit its acceptance into the PyTorch. These areas will be captured succinctly and affixed the corresponding label ([see Label statuses defined](#label-statuses-defined) for more information). The issue will also receive a comment that details the additional areas that correspond with the label. The TAC comment may be formatted as a checklist or may be presented as text.
 
 #### Examples
 
@@ -126,7 +126,7 @@ The TAC reviews and discusses Baggywrinkle. The TAC determines Baggywrinkle does
 
 ##### Isobars
 
-The TAC reviews and discusses Isobars. The TAC determines that Isobars is a *very* early project; having existed less than 6 months, and doesn't appear to clearly decoupled from the sponsoring company's flagship product. The TAC affixes the `Postponed` label and comments on the issue the need for greater maturity, more distinguished separation of the project from the product, and an estimated timeframe to reopen the issue for re-review. The issue is then closed. The project maintainers work for several months to decouple the project from the product and during that time the project fills out its documentation, use cases, and begins growing its community. The maintainers then reopen the issue, edit the content of the issue to reflect the changes or comment with updates and add the comment `Revisit Ready`. The TAC or staff will add the `Returning` label and remove the `Postponed` label. Isobars is then placed on the **🏗 Upcoming** Column of the [Sandbox Application Board](https://github.com/orgs/cncf/projects/14/views/1) by the TAC or staff so it is included at the next session.
+The TAC reviews and discusses Isobars. The TAC determines that Isobars is a *very* early project; having existed less than 6 months, and doesn't appear to clearly decoupled from the sponsoring company's flagship product. The TAC affixes the `Postponed` label and comments on the issue the need for greater maturity, more distinguished separation of the project from the product, and an estimated timeframe to reopen the issue for re-review. The issue is then closed. The project maintainers work for several months to decouple the project from the product and during that time the project fills out its documentation, use cases, and begins growing its community. The maintainers then reopen the issue, edit the content of the issue to reflect the changes or comment with updates and add the comment `Revisit Ready`. The TAC or staff will add the `Returning` label and remove the `Postponed` label. Isobars is then placed on the **🏗 Upcoming** Column of the [Sandbox Application Board](https://github.com/orgs/PyTorch/projects/14/views/1) by the TAC or staff so it is included at the next session.
 
 ## Acceptance
 
