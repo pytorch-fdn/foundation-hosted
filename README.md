@@ -92,13 +92,13 @@ b2. If the individual seeking to reopen the issue is NOT the originator of the i
 
 #### Returning
 
-Issues affixed with the `Returning` label are placed in the `Upcoming` status on the [Project Board](https://github.com/orgs/cncf/projects/14) for an updated discussion at the next Sandbox Application meeting.
+Issues affixed with the `Returning` label are placed in the In Review status on the project board for an updated discussion at the next available meeting.
 
 ## How applications are reviewed
 
 ### Frequency
 
-The TAC reviews sandbox applications approximately **every two months** as of June 2020 in a non-public meeting; referred to as "session" hereafter.
+The TAC reviews applications approximately once every 2 months.
 
 ### Quantity
 
@@ -108,26 +108,25 @@ Each TAC member prepares for these sessions by performing an independent review 
 
 ### Review order
 
-Sandbox applications are traditionally reviewed in a First In, First Out (FIFO) ordering as they appear on the **🏗 Upcoming** Column of the [Sandbox Application Board](https://github.com/orgs/cncf/projects/14/views/1) by their corresponding issue number. The only exception is where projects are `Returning` for review. Projects that are `Returning` are prioritized for re-review as they had previously been subject to a review and have completed their outstanding asks. In cases where a project was `Postponed` and has substantial changes since last review, a new issue is opened, linked to the previous, and reviewed as a new application. Refer to the [Postponed label definition for more information](#postponed).
+Applications are traditionally reviewed in a First In, First Out (FIFO) ordering as they appear on the **🏗 Upcoming** Column of the project board by their corresponding issue number. The only exception is where projects are `Returning` for review. Projects that are `Returning` are prioritized for re-review as they had previously been subject to a review and have completed their outstanding asks. In cases where a project was `Postponed` and has substantial changes since last review, a new issue is opened, linked to the previous, and reviewed as a new application. 
 
-Applications are moved from `New` to `Upcoming` approximately two weeks prior to the next scheduled session by the TAC or support staff.
+Applications are moved from `New` to `in review` approximately two weeks prior to the next scheduled session by the TAC or support staff.
 
-### Discussions and decision
+### Discussions
 
-During the course of the session, the TAC will actively discuss the project based on the information provided in the issue as well as other observations the TAC has about the project. Those observations vary greatly and may be subject to each TAC member's area of domain expertise, personal experience, community feedback, or other factors. During the course of active discussion, the TAC may identify areas the project needs to work on, complete, or allow to happen that could inhibit its acceptance into the PyTorch. These areas will be captured succinctly and affixed the corresponding label ([see Label statuses defined](#label-statuses-defined) for more information). The issue will also receive a comment that details the additional areas that correspond with the label. The TAC comment may be formatted as a checklist or may be presented as text.
+During the course of the session, the TAC will actively discuss the project based on the information provided in the issue as well as other observations the TAC has about the project. Those observations vary greatly and may be subject to each TAC member's area of domain expertise, personal experience, community feedback, or other factors. During the course of active discussion, the TAC may identify areas the project needs to work on, complete, or allow to happen that could inhibit its acceptance into the PyTorch. These areas will be captured succinctly and affixed the corresponding label. The issue will also receive a comment that details the additional areas that correspond with the label. The TAC comment may be formatted as a checklist or may be presented as text.
 
-#### Examples
+## Voting
 
-All project and organization names in the examples are fictional and are not intended to reflect any existing project past or present.
+The TAC members will then vote on the project acceptance with a simple majority vote, one vote per premier organization member.  
 
-##### Baggywrinkle
+## Acceptance or Decline 
 
-The TAC reviews and discusses Baggywrinkle. The TAC determines Baggywrinkle doesn't have sufficiently clear direction or indicators on what the project does or how it does it. The TAC concurs that Baggywrinkle should present at the correct TAG to gather input to improve the clarity of what the project does and improve the documentation on how it does it in a cloud native way. The TAC will summarize the two items that need completed on the issue as checkbox items, affix the `Need-Info` and `TAG-Assigned` label. The TAG chairs are then tagged on the issue by their GitHub handle. The application is then moved to the **⏲ Waiting** Column of the [Sandbox Application Board](https://github.com/orgs/cncf/projects/14/views/1). Baggywrinkle then presents to the assigned TAG and incorporates their feedback into the project information and updates the application issue with a comment containing the requested clarity. They or the TAG may then check off the corresponding item, provide the `Completed TAG review & info, project is Returning` comment and the TAC or staff will remove the previous labels, affix the `Returning` label, and place the issue in the **🏗 Upcoming** Column of the [Sandbox Application Board](https://github.com/orgs/cncf/projects/14/views/1) so it is included at the next session.
+Once the voting is complete, the project is labeled with the status as accepted or declined based on the voting status.  Projects will have information in the issue that describes feedback provided by the TAC.  
 
-##### Isobars
+## Decline and Reapplication
 
-The TAC reviews and discusses Isobars. The TAC determines that Isobars is a *very* early project; having existed less than 6 months, and doesn't appear to clearly decoupled from the sponsoring company's flagship product. The TAC affixes the `Postponed` label and comments on the issue the need for greater maturity, more distinguished separation of the project from the product, and an estimated timeframe to reopen the issue for re-review. The issue is then closed. The project maintainers work for several months to decouple the project from the product and during that time the project fills out its documentation, use cases, and begins growing its community. The maintainers then reopen the issue, edit the content of the issue to reflect the changes or comment with updates and add the comment `Revisit Ready`. The TAC or staff will add the `Returning` label and remove the `Postponed` label. Isobars is then placed on the **🏗 Upcoming** Column of the [Sandbox Application Board](https://github.com/orgs/PyTorch/projects/14/views/1) by the TAC or staff so it is included at the next session.
+A project that has been declined may reapply for acceptance once the comments raised by the TAC as the reasons for the decision have been addressed. 
 
-## Acceptance
 
-Once projects are accepted into the community will follow the process...
+
