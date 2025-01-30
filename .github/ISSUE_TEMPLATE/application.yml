@@ -46,7 +46,7 @@ body:
     description: Provide a brief, 100-300 word description of similar projects, if any.
     placeholder: Describe any similar projects already in the ecosystem.  If none, note as not applicable.   
   validations:
-    required: true 
+    required:   true
 - type: input
   attributes:
     label: Project repo URL 
