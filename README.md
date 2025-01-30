@@ -3,14 +3,14 @@
 ![PyTorch Ecosystem](https://raw.githubusercontent.com/pytorch/pytorch/0d4cedaa47c7ee22042eb24e87eb3cfe95502404/docs/source/_static/img/pytorch-logo-dark.svg)
 
 This repository is designed to allow projects seeking to join the PyTorch Foundation Ecosystem as a project to submit their applications. It is still a work in progress and we welcome PRs on this repo to automate assignments, improve the process, etc.  If you have any questions, please post a message to the [TAC Slack Channel](https://pytorch.slack.com/archives/C0808K2MN95).
-For information on the  process please check out the [details on our application process below](#how-applications-are-reviewed).
+For information on the  process please check out the [details on our application process below](#how-applications-are-reviewed).  It is also helpful to review the basic requirements to ensure that you meet the minimum expectations before applying.  
 
 ## How to apply
 
 Applying is as easy as 1-2-3!
 
-1. Review the basic requirements to ensure that you meet the minimum expectations before applying.  
-2. Open a new [Ecosystem Application](https://github.com/pytorch-fdn/ecosystem/issues/new?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E) using the linked issue form, and be sure to complete all sections.
+1. Open a new [Ecosystem Application](https://github.com/pytorch-fdn/ecosystem/issues/new?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E) using the linked issue form.
+2. Complete all sections.
 3. Submit the issue.
 
 ## What's next?
