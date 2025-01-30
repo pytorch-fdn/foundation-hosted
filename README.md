@@ -17,23 +17,22 @@ Applying is as easy as 1-2-3!
 
 Your project's application is placed in the backlog for triaging. You can view the status of your application and others at any time by checking out our [Project Board](https://github.com/orgs/pytorch-fdn/projects/6/views/1).
 
-As we approach Ecosystem review meetings, PyTorch staff will move applications to the "in-progress" column on the Project Board (number dependent on how many can be reviewed in a given meeting). At this point, the Technical Advisory Committee will ask questions, seek to learn more, and make a decision on the project.  
+As the community approaches the Ecosystem review meetings, PyTorch staff will move applications to the "in-progress" column on the Project Board (number dependent on how many can be reviewed in a given meeting). At this point, members of the Technical Advisory Committee (TAC) will ask questions, seek to learn more, and make a decision on the project.  
 
 ### Community Comments on Applications
 
-The TAC welcomes and appreciates community members support and exploration in surfacing items for technical consideration as part of application process because it allows the TAC to have a more comprehensive perspective on each projects' potential and supports our understanding about these projects. 
+The TAC welcomes and appreciates community members support and exploration in surfacing items for technical consideration as part of application process because it allows the TAC members to have a more comprehensive perspective on each projects' potential and supports our understanding about these projects. 
 
 ### The TAC's review meeting
 
-When the TAC meets to review applications, your application will be pulled up and discussed. Your application may receive one of several statuses:
+When the TAC members meet to review applications, your application will be pulled up and discussed. Your application may receive one of several status and/or labels:
 
 * `New` - It is a brand new application and is in the backlog for an upcoming review.
-* `Approved` - The application has been reviewed and been approved by the TAC. The issue will be closed.
+* `Approved` - The application has been reviewed and been approved by the TAC. The issue will be closed by the TAC.
 * `Declined` - The application has been reviewed and been declined by the TAC. The comments on the issue will reflect the TAC decision and the issue will be closed.
 * `Need-Info` - The application has been reviewed and requires more information in order for the TAC to further discuss the application.  For instructions on what to do, please jump down to [Need-Info](#need-info).
-* `TAG-Assigned` - The application has been reviewed and the TAC would like a TAG to review or consult with the project prior to further discussions.  For instructions on what to do, please jump down to [TAG-Assigned](#tag-assigned).
-* `Postponed` - The application has been reviewed and the TAC has determined the project (as it exists at time of review) is not ready for inclusion within the PyTorch. For instructions on what to do, please jump down to [Postponed](#postponed)
-* `Returning` - The application has been reviewed previously, was affixed a `Need-Info` or `TAG-Assigned` label, and that work has been completed and is ready for re-review.  For instructions on what to do, please jump down to [Returning](#returning).
+* `Postponed` - The application has been reviewed and the TAC has determined the project (as it exists at time of review) is not ready for inclusion. For instructions on what to do, please jump down to [Postponed](#postponed)
+* `Returning` - The application has been reviewed previously, was affixed a `Need-Info` or `Postponed` label, and that work has been completed and is ready for re-review.  For instructions on what to do, please jump down to [Returning](#returning).
 
 ### Label statuses defined
 
@@ -45,7 +44,7 @@ The application is new and placed in the backlog.
 
 #### Approved
 
-The application has been approved.
+The application has been approved and will be added, see the [Next steps](#nextsteps) section.
 
 #### Declined
 
@@ -60,27 +59,9 @@ Please provide the additional information requested as a comment on the issue wi
 
 This lets the TAC know the project is ready to be reviewed again. A TAC member or staff will remove the `Need-Info` label and affix `Returning` where it will then be removed from the `Waiting` status and placed in the `Upcoming` status for discussion at the next meeting.
 
-#### TAG Assigned
-
-If your project is assigned an `TAG-Assigned` label, the TAC will comment which TAG(s) and provide specific details on what is requested. The TAG Co-Chair(s) will be tagged on the issue. Depending on the details of the comment, the TAG or the project will update the issue with a comment containing any pertinent information. This may include links to a presentation recording, as summary of a discussion with the TAG, or recommendations.
-
-Once a comment has been added, please add the below text to your comment so the TAC and staff know to update the issue:
-`Completed TAG review, project is Returning`
-
-This lets the TAC know the project is ready to be reviewed again. A TAC member or staff will remove the `TAG-Assigned` label and affix `Returning` where it will then be removed from the `Waiting` status and placed in the `Upcoming` status for discussion at the next meeting.
-
-##### TAG(s)
-
-If the issue is affixed the `TAG-Assigned` label and you have been tagged on the issue as a TAG co-chair, please review the comments for the specific asks regarding the project. When completed, please provide a comment containing any pertinent information. This may include links to a presentation recording, as summary of a discussion with the TAG, or recommendations. Please work with the project to coorindate who will be updating the issue.
-
-Once a comment has been added, please add the below text to your comment so the TAC and staff know to update the issue:
-`Completed TAG review, project is Returning`
-
-This lets the TAC know the project is ready to be reviewed again. A TAC member or staff will remove the `TAG-Assigned` label and affix `Returning` where it will then be removed from the `Waiting` status and placed in the `Upcoming` status for discussion at the next meeting.
-
 #### Postponed
 
- If the issue has been affixed with the `Postponed` label it will be closed as the TAC has determined the project at the time of discussion is not ready for inclusion into the PyTorch. There will be a comment on the issue that annotates the expectations in order for the project to be re-reviewed by the TAC. Depending on the status and details, there are a few options to be re-reviewed. For information on review ordering for postponed projects, plese refer to the [Review Order section](#review-order).
+If the issue has been affixed with the `Postponed` label it will be closed as the TAC has determined the project at the time of discussion is not ready for inclusion into the PyTorch. There will be a comment on the issue that annotates the expectations in order for the project to be re-reviewed by the TAC. Depending on the status and details, there are a few options to be re-reviewed. For information on review ordering for postponed projects, plese refer to the [Review Order section](#review-order).
 
 ##### Returning for review after being postponed
 
@@ -98,27 +79,27 @@ Issues affixed with the `Returning` label are placed in the In Review status on 
 
 ### Frequency
 
-The TAC reviews applications approximately once every 2 months.
+The TAC reviews applications on a first-come first-served basis. It may take several months before an application may be reviewed, depending on community leadership availability.  
 
 ### Quantity
 
 The TAC attempts to work through approximately 7-10 applications per session. How many are actually reviewed in a session varies greatly between each session. Every project is unique and may warrant different areas of attention to be elevated for more in-depth discussion, depending on the nature and function of the project.
 
-Each TAC member prepares for these sessions by performing an independent review of those projects scheduled for discussion at the next session prior to that session. They'll keep their notes on hand for when the project is up for discussion.
+Each TAC member that is part of the review committee prepares for these sessions by performing an independent review of those projects scheduled for discussion at the next session prior to that session. They'll keep their notes on hand for when the project is up for discussion.
 
 ### Review order
 
-Applications are traditionally reviewed in a First In, First Out (FIFO) ordering as they appear on the **🏗 Upcoming** Column of the project board by their corresponding issue number. The only exception is where projects are `Returning` for review. Projects that are `Returning` are prioritized for re-review as they had previously been subject to a review and have completed their outstanding asks. In cases where a project was `Postponed` and has substantial changes since last review, a new issue is opened, linked to the previous, and reviewed as a new application. 
+Applications are traditionally reviewed in a First In, First Out (FIFO) ordering as they appear on the project board by their corresponding issue number. The only exception is where projects are `Returning` for review. Projects that are `Returning` are prioritized for re-review as they had previously been subject to a review and have completed their outstanding asks. In cases where a project was `Postponed` and has substantial changes since last review, a new issue is opened, linked to the previous, and reviewed as a new application. 
 
 Applications are moved from `New` to `in review` approximately two weeks prior to the next scheduled session by the TAC or support staff.
 
 ### Discussions
 
-During the course of the session, the TAC will actively discuss the project based on the information provided in the issue as well as other observations the TAC has about the project. Those observations vary greatly and may be subject to each TAC member's area of domain expertise, personal experience, community feedback, or other factors. During the course of active discussion, the TAC may identify areas the project needs to work on, complete, or allow to happen that could inhibit its acceptance into the PyTorch. These areas will be captured succinctly and affixed the corresponding label. The issue will also receive a comment that details the additional areas that correspond with the label. The TAC comment may be formatted as a checklist or may be presented as text.
+During the course of the session, the TAC will actively discuss the project based on the information provided in the issue as well as other observations the TAC has about the project. Those observations vary greatly and may be subject to each TAC member's area of domain expertise, personal experience, community feedback, or other factors. During the course of active discussion, the TAC may identify areas the project needs to work on, complete, or allow to happen that could inhibit its acceptance into the PyTorch. These areas will be captured in the issue comments.
 
 ## Voting
 
-The TAC members will then vote on the project acceptance with a simple majority vote, one vote per premier organization member.  
+The TAC members will then vote on the project acceptance with a simple majority vote, one vote per member.  
 
 ## Acceptance or Decline 
 
