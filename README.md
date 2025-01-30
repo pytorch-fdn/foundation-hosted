@@ -9,13 +9,13 @@ For information on the  process please check out the [details on our application
 
 Applying is as easy as 1-2-3!
 
-1. Open a new [Ecosystem Application](https://github.com/pytorch/ecosystem/issues/new?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E) using the linked issue form.
+1. Open a new [Ecosystem Application](https://github.com/pytorch-fdn/ecosystem/issues/new?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E) using the linked issue form.
 1. Complete all sections of the form.
 1. Submit the issue.
 
 ## What's next?
 
-Your project's application is placed in the backlog for triaging. You can view the status of your application and others at any time by checking out our [Project Board](https://github.com/orgs/pytorch/projects/85).
+Your project's application is placed in the backlog for triaging. You can view the status of your application and others at any time by checking out our [Project Board](https://github.com/orgs/pytorch-fdn/projects/6/views/1).
 
 As we approach Ecosystem review meetings, PyTorch staff will move applications to the "in-progress" column on the Project Board (number dependent on how many can be reviewed in a given meeting). At this point, the Technical Advisory Committee will ask questions, seek to learn more, and make a decision on the project.  
 
