@@ -41,7 +41,7 @@ The application is new and placed in the backlog.
 
 #### Approved
 
-The application has been approved and will be added, see the [Next steps](#nextsteps) section.
+The application has been approved and will be added.  PyTorch staff will reach out to assist you in joining the Ecosystem. 
 
 #### Declined
 
