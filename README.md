@@ -5,7 +5,7 @@
 This repository is designed to allow projects seeking to join the PyTorch Foundation Ecosystem as a project to submit their applications. It is still a work in progress and we welcome PRs on this repo to automate assignments, improve the process, etc.  If you have any questions, please post a message to the [ Slack Channel](https://pytorch.slack.com/archives/C0808K2MN95).
 For information on the  process please check out the [details on our application process below](#how-applications-are-reviewed).  
 
-Please review the [Ecosystem review process](https://github.com/pytorch-fdn//blob/main/docs/governance/PyTorch_Ecosystem_Process.md) to ensure that you meet the minimum expectations before applying.  
+Please review the [Ecosystem review process](https://github.com/pytorch-fdn/tac/blob/main/docs/governance/PyTorch_Ecosystem_Process.md) to ensure that you meet the minimum expectations before applying.  
 
 ## How to apply
 
