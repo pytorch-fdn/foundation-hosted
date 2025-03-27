@@ -69,9 +69,9 @@ The PyTorch Ecosystem Working Group reviews applications on a first-come first-s
 
 ### Quantity
 
-The yTorch Ecosystem Working Group attempts to work through approximately 7-10 applications per session. How many are actually reviewed in a session varies greatly between each session. Every project is unique and may warrant different areas of attention to be elevated for more in-depth discussion, depending on the nature and function of the project.
+The PyTorch Ecosystem Working Group attempts to work through approximately 7-10 applications per session. How many are actually reviewed in a session varies greatly between each session. Every project is unique and may warrant different areas of attention to be elevated for more in-depth discussion, depending on the nature and function of the project.
 
-Each yTorch Ecosystem Working Group member that is part of the review committee prepares for these sessions by performing an independent review of those projects scheduled for discussion at the next session prior to that session. They'll keep their notes on hand for when the project is up for discussion.
+Each PyTorch Ecosystem Working Group member that is part of the review committee prepares for these sessions by performing an independent review of those projects scheduled for discussion at the next session prior to that session. They'll keep their notes on hand for when the project is up for discussion.
 
 ### Review order
 
