@@ -1,5 +1,7 @@
 # Foundation-Hosted Projects
 
+![PyTorch Ecosystem](https://raw.githubusercontent.com/pytorch/pytorch/0d4cedaa47c7ee22042eb24e87eb3cfe95502404/docs/source/_static/img/pytorch-logo-dark.svg)
+
 This repository is designed to allow projects seeking to join the umbrella foundation as officially hosted projects to submit their applications. It is still a work in progress and we welcome PRs on this repo to automate assignments, improve the process, etc.  
 For information on the process please check out the [details on our application process below](#how-applications-are-reviewed).  
 
