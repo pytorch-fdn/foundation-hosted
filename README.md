@@ -16,7 +16,7 @@ Applying is as easy as 1-2-3:
 2. Complete all required sections.
 3. Submit the issue.
 
-Your application will appear on the [Foundation Project Board](https://github.com/orgs/pytorch-fdn/projects/6/views/1), where its progress can be tracked.
+Your application will appear on the [Foundation Project Board](https://github.com/orgs/pytorch-fdn/projects/10/views/1), where its progress can be tracked.
 
 ---
 
