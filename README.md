@@ -4,7 +4,7 @@
 
 This repository is designed to support open source projects applying to become **foundation-hosted projects** under the PyTorch Foundation. It outlines the intake process, requirements, and governance path for projects seeking Platform or Vertical status within the PyTorch landscape.
 
-Please review the [Foundation-Hosted Project Lifecycle documentation](https://github.com/pytorch-fdn/tac/blob/main/docs/governance/PyTorch_Ecosystem_Process.md) before submitting an application.
+Please review the [Foundation-Hosted Project Lifecycle documentation](https://github.com/pytorch-fdn/foundation-hosted-project/blob/main/governance/foundation-hosted-project-process.md) before submitting an application.
 
 ---
 
