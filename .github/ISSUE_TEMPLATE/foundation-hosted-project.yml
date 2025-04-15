@@ -1,0 +1,120 @@
+name: Foundation-Hosted Project Application
+description: Apply for your project to become an official Foundation-Hosted Project (Platform or Vertical) under the PyTorch Foundation
+title: "[Hosted Project] <Project Name>"
+labels: [New]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for applying to become a PyTorch Foundation-Hosted Project. This designation is for open-source projects that demonstrate maturity, wide adoption, strong community engagement, and alignment with the PyTorch ecosystem. 
+
+        Please complete the application below to help the PyTorch Technical Advisory Council (TAC) evaluate your readiness for foundation hosting.
+
+  - type: input
+    attributes:
+      label: Project Name
+      description: The official name of the project.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Project Summary
+      description: Provide a one-line summary of the project.
+      placeholder: A short, clear summary (max one sentence)
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Project Description
+      description: Describe what the project does, who it serves, and why it should be hosted by the PyTorch Foundation.
+      placeholder: What the project does, why it matters, and how it aligns with PyTorch's mission.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: GitHub Repository URL
+      description: URL of the main code repository for the project.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: License
+      description: Must be Apache 2.0, MIT, or BSD-3-Clause.
+      placeholder: Example: Apache 2.0
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Website URL
+      description: URL of the project website or documentation portal.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Governance Model
+      description: Link to or description of the project's current governance model (e.g., LF Minimum Viable Governance).
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: CI/CD & Release Workflow
+      description: Describe how your project is built, tested, and released. Include any CI systems and frequency of releases.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: PyTorch Compatibility
+      description: List the PyTorch versions supported by your project.
+      placeholder: e.g. Compatible with PyTorch 2.5, 2.4
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Production Adoption
+      description: Describe real-world usage. Provide evidence of production deployments in at least two different organizations.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Maintainers & Contributors
+      description: Provide names, GitHub handles, and affiliations for at least 2 core maintainers from different organizations and at least 10 contributors.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Sponsor TAC Member
+      description: Name of the TAC member sponsoring this application.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Roadmap
+      description: Link to or provide a 12-month public roadmap for the project.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Security
+      description: Has the project received a Silver badge or better from OpenSSF Best Practices? Please link the badge or status.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Any other details the TAC should know when reviewing this application.
+    validations:
+      required: false
