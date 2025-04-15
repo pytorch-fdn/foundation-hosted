@@ -12,7 +12,7 @@ Please review the [Foundation-Hosted Project Lifecycle documentation](https://gi
 
 Applying is as easy as 1-2-3:
 
-1. Open a new [Foundation-Hosted Project Application](https://github.com/pytorch-fdn/ecosystem/issues/new?assignees=&labels=New&projects=&template=application.yml&title=%3CProject+Name%3E) using the linked issue form.
+1. Open a new [Foundation-Hosted Project Application](https://github.com/pytorch-fdn/foundation-hosted-project/blob/main/.github/ISSUE_TEMPLATE/foundation-hosted-project.yml&title=%3CProject+Name%3E) using the linked issue form.
 2. Complete all required sections.
 3. Submit the issue.
 
