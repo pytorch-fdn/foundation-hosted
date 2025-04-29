@@ -6,6 +6,9 @@ This repository is designed to support open source projects applying to become *
 
 Please review the [Foundation-Hosted Project Lifecycle documentation](https://github.com/pytorch-fdn/foundation-hosted-project/blob/main/governance/foundation-hosted-project-process.md) before submitting an application.
 
+> **Important:** Before applying to become a Foundation-Hosted Project, your project must already be an approved [PyTorch Ecosystem Project](https://github.com/pytorch-fdn/tac/blob/main/docs/governance/PyTorch_Ecosystem_Process.md).  
+> Please ensure you have completed the Ecosystem application and approval process before proceeding.
+
 ---
 
 ## How to Apply
@@ -64,4 +67,3 @@ Projects that are not approved may reapply after addressing the issues raised du
 ## Questions?
 
 For questions or support, please reach out to PyTorch Foundation staff via the appropriate Slack channel or contact your TAC sponsor directly.
-
