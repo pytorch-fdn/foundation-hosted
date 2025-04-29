@@ -28,6 +28,9 @@ To apply, a project must already be an approved PyTorch **Ecosystem Project** an
 
 ## Eligibility Criteria
 
+> **Important:** Before applying to become a Foundation-Hosted Project, your project must already be an approved [PyTorch Ecosystem Project](https://github.com/pytorch-fdn/tac/blob/main/docs/governance/PyTorch_Ecosystem_Process.md).  
+> Please ensure you have completed the Ecosystem application and approval process before proceeding.
+
 Projects must meet all the [Foundation-Hosted Project requirements](https://github.com/pytorch-fdn/tac/blob/main/docs/governance/PyTorch_Ecosystem_Process.md), including:
 
 - Compatibility with recent PyTorch releases  
