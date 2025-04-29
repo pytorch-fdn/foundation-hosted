@@ -66,4 +66,5 @@ Projects that are not approved may reapply after addressing the issues raised du
 
 ## Questions?
 
-For questions or support, please reach out to PyTorch Foundation staff via the appropriate Slack channel or contact your TAC sponsor directly.
+For questions or support, please reach out to the PyTorch Foundation staff via the [PyTorch Foundation Slack channel](https://pytorch.slack.com/archives/C08Q8FATY6P) or contact your TAC sponsor directly.
+
