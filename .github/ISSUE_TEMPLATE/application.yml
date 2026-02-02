@@ -3,7 +3,7 @@ description: Apply for your project to become an official Foundation-Hosted Proj
 title: "[Hosted Project] <Project Name>"
 labels: [New]
 assignees:
-  - reginankenchor
+  - michellearoth
 body:
   - type: markdown
     attributes:
