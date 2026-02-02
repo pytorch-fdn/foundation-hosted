@@ -53,7 +53,7 @@ A full checklist is available in the [lifecycle document](https://github.com/pyt
 4. **Complete all sections** of the form, including links to documentation, roadmap, license, and CI setup.
 5. **Optionally prepare a slide deck**, which may be used during the TAC meeting presentation.
 
-The issue will be added to the [project board](#) for triage and scheduling.
+The issue will be added to the [project board](https://github.com/orgs/pytorch-fdn/projects/10) for triage and scheduling.
 
 ---
 
