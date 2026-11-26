@@ -9,11 +9,13 @@ body:
 - type: markdown
   attributes:
     value: |-
+      ![PyTorch Foundation | Project Incubation](https://img.shields.io/badge/PyTorch%20Foundation-Project%20Incubation-EE4C2C?style=for-the-badge)
+
       > Apply for Incubation under the PyTorch Foundation. Identify a current Technical Advisory Council (TAC) member to sponsor and guide your proposal before submitting.
       >
       > When you click **Submit new issue**, GitHub creates a public issue for your application. Bookmark that issue to track its progress, see reviewer questions, and reply in the same thread. Select **Subscribe** on the issue if you'd like notifications.
       >
-      > The TAC reviews your proposal. Be prepared to present a 20–30 minute overview covering project scope, community health, and upcoming goals.
+      > The TAC reviews your proposal. Be prepared to present a 20–30 minute overview covering project scope, community health, and upcoming goals. This issue is public. Share only information you can disclose publicly.
 - type: markdown
   attributes:
     value: '### Project overview'
