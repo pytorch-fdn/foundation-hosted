@@ -1,125 +1,159 @@
-name: Foundation-Hosted Project Application
-description: Apply for your project to become an official Foundation-Hosted Project (Platform or Vertical) under the PyTorch Foundation
-title: "[Hosted Project] <Project Name>"
-labels: [New]
+name: PyTorch Foundation Project Incubation Application
+description: Submit a project contribution proposal for PyTorch Foundation Incubation.
+title: '[Incubation] <Project Name>'
+labels:
+- New
 assignees:
-  - michellearoth
+- michellearoth
 body:
-  - type: markdown
-    attributes:
-      value: |
-        > **Important:** Before applying to become a Foundation-Hosted Project, your project must already be an approved [PyTorch Ecosystem Project](https://github.com/pytorch-fdn/tac/blob/main/docs/governance/PyTorch_Ecosystem_Process.md).  
-        > Please ensure you have completed the Ecosystem application and approval process before proceeding.
+- type: markdown
+  attributes:
+    value: |-
+      <img src="https://raw.githubusercontent.com/pytorch-fdn/artwork/main/assets/img/pytorch_foundation_logo/stacked/svg/PyTorchFLogo_Stacked_fullColor.svg" alt="PyTorch Foundation" width="180">
 
-        Thanks for applying to become a PyTorch Foundation-Hosted Project. This designation is for open source projects that demonstrate maturity, wide adoption, strong community engagement, and alignment with the PyTorch ecosystem.
+      Apply for Incubation under the PyTorch Foundation. Identify a current Technical Advisory Council (TAC) member to sponsor and guide your proposal before submitting.
 
-        Please complete the application below to help the PyTorch Technical Advisory Council (TAC) evaluate your readiness for foundation hosting.
+      When you click **Submit new issue**, GitHub creates a public issue for your application. Bookmark that issue to track its progress, see reviewer questions, and reply in the same thread. Select **Subscribe** on the issue if you'd like notifications.
 
-  - type: input
-    attributes:
-      label: Project Name
-      description: "The official name of the project."
-    validations:
+      The TAC reviews your proposal. Be prepared to present a 20–30 minute overview covering project scope, community health, and upcoming goals. This issue is public. Share only information you can disclose publicly.
+- type: markdown
+  attributes:
+    value: '### Project overview'
+- type: input
+  id: project-name
+  attributes:
+    label: Project name
+    description: Enter the official project name.
+  validations:
+    required: true
+- type: input
+  id: one-line-summary
+  attributes:
+    label: One-line summary
+    description: Summarize what the project does in one sentence.
+  validations:
+    required: true
+- type: textarea
+  id: mission-scope-and-fit
+  attributes:
+    label: Mission, scope, and fit
+    description: Describe the problem the project solves, who uses it, what is in scope, and why you are
+      seeking PyTorch Foundation hosting. Describe any relevant relationship to PyTorch or the broader
+      ML ecosystem.
+  validations:
+    required: true
+- type: input
+  id: tac-sponsor
+  attributes:
+    label: TAC sponsor
+    description: Provide the name of the current TAC member sponsoring this application. Include their
+      GitHub handle if available.
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: '### Repositories, documentation, and licensing'
+- type: input
+  id: github-organization-url
+  attributes:
+    label: GitHub organization URL
+    description: Link to the standalone project organization. Confirm in the repository links field that
+      it contains only project repositories, or explain any cleanup still needed.
+  validations:
+    required: true
+- type: textarea
+  id: repository-and-documentation-links
+  attributes:
+    label: Repository and documentation links
+    description: Link to the main repository, user documentation, README, CODEOWNERS, CONTRIBUTING, and
+      RELEASE files. Confirm the organization contains only project repositories. Identify any gaps and
+      plans to address them.
+  validations:
+    required: true
+- type: textarea
+  id: code-license
+  attributes:
+    label: Code license
+    description: Identify the permissive code license and link to the license file. The lifecycle lists
+      Apache-2.0, MIT, and BSD-3-Clause.
+  validations:
+    required: true
+- type: textarea
+  id: documentation-and-specification-licenses
+  attributes:
+    label: Documentation and specification licenses
+    description: Identify and link to the open licenses for your documentation and specifications. If
+      you do not maintain specification documents, say so.
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: '### Governance, project health, and roadmap'
+- type: textarea
+  id: technical-governance
+  attributes:
+    label: Technical governance
+    description: Link to governance documentation or describe how maintainers are appointed, how technical
+      decisions are made, and how contributors can participate.
+  validations:
+    required: true
+- type: textarea
+  id: maintainers-and-contributors
+  attributes:
+    label: Maintainers and contributors
+    description: List core maintainers, their GitHub handles and public affiliations, and provide links
+      showing contributions from multiple organizations. Use public evidence only.
+  validations:
+    required: true
+- type: textarea
+  id: activity-testing-and-releases
+  attributes:
+    label: Activity, testing, and releases
+    description: Link to recent activity and releases. Explain how code is built, tested, and released,
+      and describe your release cadence.
+  validations:
+    required: true
+- type: textarea
+  id: security-and-license-remediation
+  attributes:
+    label: Security and license remediation
+    description: Describe how you receive security reports and identify and remediate security and licensing
+      issues. Link to public policies where available.
+  validations:
+    required: true
+- type: textarea
+  id: upcoming-goals
+  attributes:
+    label: Upcoming goals
+    description: Summarize upcoming milestones and priorities. Link to a public roadmap if available.
+  validations:
+    required: true
+- type: textarea
+  id: adoption-and-compatibility
+  attributes:
+    label: Adoption and compatibility
+    description: Share any public evidence of usage, integrations, or deployments. If relevant, list supported
+      PyTorch versions.
+  validations:
+    required: false
+- type: markdown
+  attributes:
+    value: |-
+      ### Incubation commitments
+
+      Following TAC approval, onboarding includes completing and approving the Technical Charter, transferring relevant trademarks and assisting with filings as applicable, enabling Linux Foundation owner access to project assets, enabling EasyCLA or DCO on project repositories, and establishing a project TSC that meets publicly at least quarterly.
+- type: textarea
+  id: additional-information
+  attributes:
+    label: Additional information
+    description: Share any other context, questions, or onboarding dependencies for TAC review.
+  validations:
+    required: false
+- type: checkboxes
+  id: ongoing-review
+  attributes:
+    label: Quarterly updates and annual review
+    options:
+    - label: I understand that Incubated projects provide quarterly updates to the TAC and participate
+        in an annual review.
       required: true
-
-  - type: textarea
-    attributes:
-      label: Project Summary
-      description: "Provide a one-line summary of the project."
-      placeholder: "A short, clear summary (max one sentence)"
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Project Description
-      description: "Describe what the project does, who it serves, and why it should be hosted by the PyTorch Foundation."
-      placeholder: "What the project does, why it matters, and how it aligns with PyTorch's mission."
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: GitHub Repository URL
-      description: "URL of the main code repository for the project."
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: License
-      description: "Must be Apache 2.0, MIT, or BSD-3-Clause."
-      placeholder: "Example: Apache 2.0"
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: Website URL
-      description: "URL of the project website or documentation portal."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Governance Model
-      description: "Link to or description of the project's current governance model (e.g., LF Minimum Viable Governance)."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: CI/CD & Release Workflow
-      description: "Describe how your project is built, tested, and released. Include any CI systems and frequency of releases."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: PyTorch Compatibility
-      description: "List the PyTorch versions supported by your project."
-      placeholder: "e.g. Compatible with PyTorch 2.5, 2.4"
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Production Adoption
-      description: "Describe real-world usage. Provide evidence of production deployments in at least two different organizations."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Maintainers & Contributors
-      description: "Provide names, GitHub handles, and affiliations for at least 2 core maintainers from different organizations and at least 10 contributors."
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: Sponsor TAC Member
-      description: "Name of the TAC member sponsoring this application."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Roadmap
-      description: "Link to or provide a 12-month public roadmap for the project."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Security
-      description: "Has the project received a Silver badge or better from OpenSSF Best Practices? Please link the badge or status."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Additional Information
-      description: "Any other details the TAC should know when reviewing this application."
-    validations:
-      required: false
