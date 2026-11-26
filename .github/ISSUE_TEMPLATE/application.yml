@@ -13,7 +13,7 @@ body:
       >
       > When you click **Submit new issue**, GitHub creates a public issue for your application. Bookmark that issue to track its progress, see reviewer questions, and reply in the same thread. Select **Subscribe** on the issue if you'd like notifications.
       >
-      > The TAC reviews your proposal. Be prepared to present a 20–30 minute overview covering project scope, community health, and upcoming goals. This issue is public. Share only information you can disclose publicly.
+      > The TAC reviews your proposal. Be prepared to present a 20–30 minute overview covering project scope, community health, and upcoming goals.
 - type: markdown
   attributes:
     value: '### Project overview'
