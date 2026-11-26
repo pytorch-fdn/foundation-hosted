@@ -9,8 +9,6 @@ body:
 - type: markdown
   attributes:
     value: |-
-      <img src="https://raw.githubusercontent.com/pytorch-fdn/artwork/main/assets/img/pytorch_foundation_logo/stacked/svg/PyTorchFLogo_Stacked_fullColor.svg" alt="PyTorch Foundation" width="180">
-
       Apply for Incubation under the PyTorch Foundation. Identify a current Technical Advisory Council (TAC) member to sponsor and guide your proposal before submitting.
 
       When you click **Submit new issue**, GitHub creates a public issue for your application. Bookmark that issue to track its progress, see reviewer questions, and reply in the same thread. Select **Subscribe** on the issue if you'd like notifications.
